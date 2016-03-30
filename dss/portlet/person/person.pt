@@ -19,7 +19,7 @@
 		          <div class="photo"
 		            tal:condition="context/image_normal|nothing">
 		             <img src="" alt=""
-		             tal:replace="structure python:context.getWrappedField('image').tag(context, scale='normal',  css_class='photo')" />
+		             tal:replace="structure python:context.getWrappedField('image').tag(context, scale='normal',  css_class='photo img-responsive')" />
 		           </div>
 		 </tal:block>
            <tal:block>                             
